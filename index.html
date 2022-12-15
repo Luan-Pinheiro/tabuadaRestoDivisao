@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div id="msg">
+            <p>Número:  
+                <input type="number" name="=numerobase" id="numerobase" min="0">
+            </p>
+            <p>
+                <input type="radio" name="op" id="mult" checked>
+                <label for="male">Multiplicação</label>
+                <input type="radio" name="op" id="resto">
+                <label for="female">Resto de divisão</label>
+            </p>
+            <p>
+                <input type="button" value="Calcular" onclick="verificar()">
+                <input type="button" value="Limpar" onclick="limpar()">
+            </p>
+
+        </div>
+        <div id="res">
+            Preencha os campos acima para visualizar o resultado!
+        </div>
+        <div id="tab">
+            <select name="tabuada" id="seltab" size="10"></select>
+        </div>
+    </section>
+    <footer>
+        <p>&#64; luanp_azvd</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
